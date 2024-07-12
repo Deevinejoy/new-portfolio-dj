@@ -1,9 +1,9 @@
 .about-sect{
-margin-top: 50px;
-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
--webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
--moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
-height: 500px;
+   margin-top: 50px;
+   box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+   -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+   -moz-box-shadow: 15px 9px 9px -2px #e6e0e0db;
+    height: 500px;
 
 
 
@@ -53,11 +53,16 @@ h2{
 }
 @media (max-width: 1000px) {
     .about-sect{
-        height: 630px
+        height: 600px
     }
     .about-img{
         align-items: center;
         justify-content: center;
     }
     
+}
+@media (max-width: 600px) {
+    .about-sect{
+        height: 740px
+    }
 }
