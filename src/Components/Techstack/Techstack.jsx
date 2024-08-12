@@ -66,7 +66,7 @@ const Techstack = () => {
         {data.slice(0,loadMore).map((item, index)=>
        
             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'   key={index}   >
-                <div  className={index===0? 'tech-content-marked tech-content':'tech-content'} >
+                <div className={index===0? 'tech-content-marked tech-content':'tech-content'} >
                     <span className='tech-no'
                      style={{backgroundColor: 'black'}}> {index+1}
 
