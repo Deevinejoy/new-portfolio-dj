@@ -1,12 +1,13 @@
-import React from 'react'
+
 import { useState } from 'react'
 import './Sidebar.css'
 import Home from '../Home/Home'
 import Sidebarlist  from './Sidebarlist'
 import {BsChevronLeft, BsChevronRight} from 'react-icons/bs'
 
+// eslint-disable-next-line react/prop-types
 const Sidebar = ({theme, changeTheme}) => {
-    const [expandSideBar, setExpandSideBar] = useState(true)
+    const [expandSideBar, setExpandSideBar ] = useState(true)
     const handleExpandSidebar = ()=>{
         setExpandSideBar(!expandSideBar)
         

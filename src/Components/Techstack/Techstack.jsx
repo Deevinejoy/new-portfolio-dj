@@ -6,18 +6,18 @@ import {Zoom} from 'react-awesome-reveal'
 
 const Techstack = () => {
     const data=[
+       
         {
-            name:' Frontend developer'
+            name: 'NextJs'
         },
-        
         {
-            name: 'Javascript'
+            name: 'Wordpress'
         },
         {
             name: 'Tailwind'
         },
         {
-            name: 'Reactjs'
+            name: 'ReactJs'
         },
         {
             name: 'Bootstrap'
@@ -29,10 +29,10 @@ const Techstack = () => {
             name: 'Python'
         },
         {
-            name: 'Nextjs'
+            name: 'JavaScript'
         },
         {
-            name: 'Nodejs'
+            name: 'NodeJs'
         },
         {
             name: 'Html/css'
@@ -49,10 +49,7 @@ const Techstack = () => {
         }
       
     ]
-    const colors =
-    [
-        'pink', 'red', 'purple', 'orange', 'blue', 'green', 'wheat','brown', 'lavender', 'cyan', 'lightgreen', 'orangered'
-    ]
+   
    
     const [loadMore, setLoadMore] = useState(6)
     const handleLoadMore= () =>{
@@ -67,26 +64,28 @@ const Techstack = () => {
         </div>
         <div className='row'>
         {data.slice(0,loadMore).map((item, index)=>
-         <Slide right  key={index} >
+       
             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'   key={index}   >
                 <div  className={index===0? 'tech-content-marked tech-content':'tech-content'} >
                     <span className='tech-no'
-                     style={{backgroundColor: colors[index]}}> {index+1}
+                     style={{backgroundColor: 'black'}}> {index+1}
 
                     </span>
                     <p>{item.name}</p> 
                 </div>
                                
             </div>
-        </Slide>
+     
 
         )} 
         </div>
        
-   {loadMore >= data.length? null :
-    <Zoom>
-      <span className='load-more' onClick={handleLoadMore}>Load More</span>
-    </Zoom>
+        {loadMore >= data.length? null :
+        <Zoom>
+            <span className='load-more' onClick={handleLoadMore}>Load More</span>
+        </Zoom>
+      
+   
 }
 
     

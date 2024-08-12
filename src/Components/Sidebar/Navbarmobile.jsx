@@ -34,8 +34,10 @@ const Navbarmobile = ({theme, changeTheme}) => {
             <Link to='about'
                     spy={true}
                     duration={100}
-                    smooth >
-                <FcContacts size={25} />About
+                    smooth
+                  >
+                <FcContacts size={25} /> About
+               
             </Link>
             </li>  
             <li className='mobile-nav-item'> 

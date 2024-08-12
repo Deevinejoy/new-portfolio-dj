@@ -1,30 +1,39 @@
 .contact-section{
-    height: 700px;
+ 
     padding-bottom: 40px;
-    margin-left: 250px;
     box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
     -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
     -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
 }
+
+.contact-form{
+    font-family: 'Poppins';
+
+}
 .contact-form-image img{
-    height: 600px;
+    height: 450px;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
-    margin-top: 40px;
+   
     padding: 8px;
 
 }
-
+.contact label{
+    font-family: 'Poppins';
+    color:  black;
+}
 .text-center{
     padding-bottom: 20px;
+    font-family: 'Kavoon';
+    font-weight: 700;
 }
 .contact input{
     height: 50px;
     border-radius: 10px;
     margin-top: 10px;
-    width: 100%;
     margin-bottom: 20px;
+   
 
 }
 
@@ -35,6 +44,7 @@
     width: 100%;
     margin-bottom: 20px;
     background-color: white;
+    font-family: 'Poppins';
  
 
 }
@@ -45,16 +55,13 @@
     margin-bottom: 20px;
 
 }
-label{
-    font-size: 16px;
-    color: brown;
-}
 .btn-submit{
-    background-color: palevioletred;
+    background-color:rgb(237, 112, 133) ;
     padding: 10px;
     border-radius: 30px;
     color: white;
-    width: 50%;
+    width: 40%;
+    display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -62,9 +69,35 @@ label{
 }
 
 .btn-submit:hover{
-    background-color: brown;
+    background-color:  rgb(187, 90, 211);
     transition-duration: 1s;
 
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.socials a{
+    color: black;
+}
+.socials a:hover{
+    color: rgb(237, 112, 133);
+}
+@media (min-width: 767px) {
+    .form-socials{
+        display: none;
+    }
+
+    
+}
+@media (max-width: 767px) {
+    .pic-socials{
+        display: none;
+    }
+
+    
 }
 #dark .contact-section{
     background-color: #38004c;
@@ -100,12 +133,9 @@ label{
     background-color: black;
 }
 #dark .btn-submit:hover{
-    background-color: rgb(227, 105, 105)
+    background-color: rgb(187, 90, 211)
 }
 @media (max-width:800px) {
-    .contact-section{
-        margin-left: 0px;
-    }
-    
+  
 }
 

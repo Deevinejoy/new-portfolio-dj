@@ -40,7 +40,7 @@ function App() {
       smooth
       height='20'
       width='20'
-      style={{borderRadius: '90px', backgroundColor: 'pink'}}/>
+      style={{borderRadius: '90px',marginRight:'-30px', backgroundColor: 'pink'}}/>
  </ThemeContext.Provider>
  
  

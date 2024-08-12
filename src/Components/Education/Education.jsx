@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Education = () => {
     const data=[
         {
-            name: 'Obafemi Awolowo university',
+            name: 'Obafemi Awolowo University',
             degree: 'Bsc',
             year: '2017-2023',
             des: 'Pure and Applied Chemistry'
@@ -17,20 +17,17 @@ const Education = () => {
             name: 'Udemy',
             degree: 'nil',
             year: '2021',
-            des: 'Frontend development'
+            des: 'Web development'
         },
         {
             name: 'Cousera',
             degree: 'nil',
             year: '2023',
-            des: 'Frontend development'
+            des:'Wordpress'
         },
        
     ]
-    const colors =
-    [
-        'pink', 'red', 'purple', 'orange', 'blue', 'green', 'wheat','brown'
-    ]
+   
   return (
     <div className='container education-section'
         id='education'>
@@ -44,11 +41,11 @@ const Education = () => {
                 <VerticalTimelineElement
                 key={index}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: colors[index], color: '#fff' }}
+                  contentStyle={{ background: '#996248', color: '#fff' }}
                   contentArrowStyle={{ borderRight: '7px solid  brown' }}
                   date={item.year}
                   dateClassName='date-class'
-                  iconStyle={{ background: colors[index], color: 'white' }}
+                  iconStyle={{ background: 'black', color: 'white' }}
                   icon={<FcGraduationCap />}>
                   <h3 className="vertical-timeline-element-title">{item.name}</h3>
                   <h4 className="vertical-timeline-element-subtitle">{item.degree}</h4>

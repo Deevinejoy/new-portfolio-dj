@@ -64,6 +64,17 @@ const Project = () => {
             </div>
         )}
         </div>
+        <div className='section-title'>
+            <h1> Wordpress Projects </h1>
+            <span className="line"></span>
+        </div>
+        <div className='container row'> 
+        {data.map((item, index)=>
+            <div className='col-xl-6 col-lg-6 col-md-6  col-sm-12' key={index}>
+                <Projectlist item={item} />
+            </div>
+        )}
+        </div>
       
     </div>
   )

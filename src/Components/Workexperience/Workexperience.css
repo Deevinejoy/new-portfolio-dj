@@ -1,20 +1,36 @@
 .work-experience{
     margin-top: 60px;
     font-size: larger;
+  
 }
 
 .section-title{
     margin-bottom: 50px;
+    text-align: center;
 }
+.section-title h2{
+   font-family: 'Kavoon';
+    font-weight: 700;
 
+}
+.work-experience h3{
+    font-family: 'Kavoon';
+}
+.work-experience h4{
+    font-family: 'Poppins';
+
+}
+.work-experience p{
+    font-family: 'Poppins';
+}
 .tech-skills p{
     background-color: black;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     border-radius: 90px;
     text-align: center;
-    font-size: 1000px;
+    font-family: 'Poppins';
+   
 }
 
 .tech-skills:hover p{

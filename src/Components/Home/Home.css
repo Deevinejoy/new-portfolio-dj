@@ -3,6 +3,10 @@
     color: white;
     
 }
+.home h1,.home h3{
+    font-size: 3rem;
+    font-family: 'Kavoon', Georgia;
+}
 .home-content{
     margin: auto;
     margin-left: 40px;
@@ -11,7 +15,7 @@
 }
 .home-content h3{
     margin-top: 20px;
-    color: yellow;
+    color: rgb(187, 90, 211);
 
 }
 .btn-for-action{
@@ -23,7 +27,9 @@
     color: white;
 }
 .hire-me-btn{
-    background-color: orange;
+    background-color: white;
+    color: black;
+    font-family: 'Kavoon';
     text-align: center;
     width: 180px;
     padding: 10px;
@@ -33,14 +39,15 @@
     border: 2px solid white;
 }
 .hire-me-btn:hover{
-    background-color: white;
-    width: 250px;
-    color:black;
+    background-color: brown;
+    width: 200px;
+    color:white;
     transition-duration: 1s;
 }
 .resume-btn{
-    color: black;
-    background-color: yellow;
+    color: white;
+    font-family: 'Kavoon';
+    background-color: #645068;
     text-align: center;
     width: 180px;
     padding: 10px;
@@ -51,21 +58,21 @@
     border: 2px solid white;
 }
 .resume-btn:hover{
-    background-color:green;
-    width: 250px;
+    background-color:rgb(187, 90, 211);
+    width: 200px;
     color:black;
     transition-duration: 1s;
 }
 .resume-btn a{
     text-decoration: none;
-    color: black
+    
 }
 
 .theme-change{
     justify-content: center;
     height: 50px;
     width: 50px;
-    background-color: blue;
+    background-color: rgb(178, 55, 125);
     right: 0;
     margin-right: 10px;
     text-align: center;
@@ -83,9 +90,9 @@ p svg{
 }
 .sun-theme svg{ 
     animation: rotate infinite 5s linear ;
-    
 
 }
+
 @keyframes rotate {
     from{
         transform: rotate(0deg);
@@ -101,5 +108,18 @@ p svg{
         display: none;
     }
    
+    
+}
+@media (max-width:555px) {
+    .home h1, .home h3{
+        font-size: 2rem;
+        font-family: 'Kavoon', Georgia;
+    }
+    .hire-me-btn,  .resume-btn{
+        width: 120px;
+    }
+    .home-content{
+        margin-left: 0;
+    }
     
 }

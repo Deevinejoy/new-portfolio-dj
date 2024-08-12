@@ -1,7 +1,17 @@
 .education-section{
     margin-top: 70px;
+  
     
 }
 h2{
     align-items: center;
+}
+.education-section h3,.date-class,.education-section h4{
+   color: white;
+    font-family: 'Kavoon';
+
+
+}
+.date-class{
+    font-size: 40px;
 }

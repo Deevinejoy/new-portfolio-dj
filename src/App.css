@@ -1,3 +1,5 @@
+
+
 ::-webkit-scrollbar{
     width: 8px;
     height: auto;
@@ -17,7 +19,7 @@ html{
     overflow-x: hidden;
 }
 #dark{
-    background-color:rgb(55, 53, 53);
+    background-color:black;
 
 }
 

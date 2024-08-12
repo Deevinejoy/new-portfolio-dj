@@ -10,8 +10,7 @@ const Workexperience = () => {
         {
             company: 'Fiverr',
             position: 'Frontend developer',
-            des: 'Freelancing',
-            year: '2022-2024',
+            year: '2022 - Date',
             tech:[
                 {
                     techName: 'Reactjs'
@@ -30,19 +29,35 @@ const Workexperience = () => {
         },
         {
             company: 'Kitarific',
-            position: 'Frontend developer',
-            des: 'Worked deligently for a year',
-            year: '2023-2024',
+            position: 'Wordpress designer',
+            year: '2022 - 2024',
             tech:[
                 {
-                    techName: 'Reactjs'
+                    techName: 'Wordpress'
+                },
+                {
+                    techName: 'Elementor'
+                },
+            
+                {
+                    techName: 'Javascript'
+                }
+            ]
+        },
+        {
+            company: 'Codeplay',
+            position: 'Frontend developer',
+            year: '2023 - 2024',
+            tech:[
+                {
+                    techName: 'React Native'
                 },
                 {
                     techName: 'Bootstrap'
                 },
             
                 {
-                    techName: 'Javascript'
+                    techName: 'Tailwind'
                 }
             ]
         },
@@ -50,26 +65,42 @@ const Workexperience = () => {
         {
             company: 'Upwork',
             position: 'Frontend developer',
-            des: 'Freelancing',
-            year: '2022-2023',
+            year: '2022 - Date',
             tech:[
                 {
-                    techName: 'Html'
+                    techName: 'NextJs'
                 },
                 {
-                    techName: 'Javascript'
+                    techName: 'React'
                 },
             
                 {
-                    techName: 'Css'
+                    techName: 'Javascript'
+                }
+            ]
+        },
+        {
+            company: 'HNG',
+            position: 'Frontend developer',
+            year: '2024',
+            tech:[
+                {
+                    techName: 'NextJs'
+                },
+                {
+                    techName: 'React'
+                },
+            
+                {
+                    techName: 'Tailwind'
+                },
+                {
+                    techName: 'Bootstrap'
                 }
             ]
         },
     ]
-    const colors =
-    [
-        'orange', 'red', 'brown'
-    ]
+   
   return (
     
     <div className='container work-experience'
@@ -85,31 +116,29 @@ const Workexperience = () => {
                 <VerticalTimelineElement
                 key={index}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: colors[index], color: '#fff' }}
+                  contentStyle={{ background: '#996248', color: '#fff' }}
                   contentArrowStyle={{ borderRight: '7px solid  brown' }}
-                  date={item.year}
-                  dateClassName='date-class'
-                  iconStyle={{ background: colors[index], color: 'white' }}
+                  iconStyle={{ background: 'black', color: 'white' }}
                   icon={<MdGroupWork />}>
-                  <h3       className="vertical-timeline-element-title">{item.company}
+                  <h3 className="vertical-timeline-element-title">{item.company}
                   </h3>
                   <h4 className="vertical-timeline-element-subtitle">{item.position}
                   </h4>
+                  <p className="vertical-timeline-element-subtitle">{item.year}
+                  </p>
+
                   <div className='row'>
                         { item.tech.map((tech, index)=>
                                 <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
                                     <div className='tech-skills'>
                                         <p>{tech.techName}</p>
+                                       
                                     </div>
                                 </div>
                         )}
-                        
-
                   </div>
-                  <p>
-                    {item.des}
-                  </p>
-                </VerticalTimelineElement>               
+                  
+               </VerticalTimelineElement>               
                ))}
            </VerticalTimeline>
     </div>

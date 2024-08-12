@@ -41,7 +41,7 @@ const Sidebarlist = ({expandSideBar}) => {
                     duration={100}
                     smooth >
                  
-                <FcFactory size={25}/>Work Experience
+                <FcFactory size={25}/>Experience
             </Link>
             </li>
             <li className='nav-item'> 
