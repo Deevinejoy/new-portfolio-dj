@@ -7,7 +7,7 @@ import {BsChevronLeft, BsChevronRight} from 'react-icons/bs'
 
 // eslint-disable-next-line react/prop-types
 const Sidebar = ({theme, changeTheme}) => {
-    const [expandSideBar, setExpandSideBar ] = useState(true)
+    const [expandSideBar, setExpandSideBar ] = useState(false)
     const handleExpandSidebar = ()=>{
         setExpandSideBar(!expandSideBar)
         

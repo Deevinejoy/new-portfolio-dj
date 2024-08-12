@@ -32,7 +32,7 @@ const Education = () => {
     <div className='container education-section'
         id='education'>
          <div className='section-title'>
-            <h2>Education </h2>
+            <h1>Education </h1>
             <span className="line"></span>
         </div>
 

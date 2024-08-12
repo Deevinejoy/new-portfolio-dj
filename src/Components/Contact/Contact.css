@@ -1,9 +1,6 @@
 .contact-section{
- 
     padding-bottom: 40px;
-    box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
-    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
-    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224,224,0.86);
+    padding: 50px;
 }
 
 .contact-form{
@@ -24,7 +21,7 @@
     color:  black;
 }
 .text-center{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-family: 'Kavoon';
     font-weight: 700;
 }
@@ -36,7 +33,9 @@
    
 
 }
+.contact{
 
+}
 .custom-select {
     height: 50px;
     border-radius: 10px;
@@ -100,19 +99,13 @@
     
 }
 #dark .contact-section{
-    background-color: #38004c;
-    box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
-    --webkit-box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
-    --moz-box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
+    background-color: black;
     color: white;
 }
 #dark label{
     color: white
 }
-#dark .row{
-    background-color: #38004c;
 
-}
 #dark .contact-form input{
     background-color: #38004c;
     border: 2px solid white;
@@ -131,9 +124,17 @@
 }
 #dark .btn-submit{
     background-color: black;
+    border: 2px white solid;
 }
 #dark .btn-submit:hover{
-    background-color: rgb(187, 90, 211)
+    background-color: #38004c
+}
+#dark .socials a{
+    color: white;
+}
+#dark .socials a:hover{
+    color: #38004c;
+
 }
 @media (max-width:800px) {
   

@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './Sidebarlist.css'
-import {FcHome, FcNightPortrait, FcTodoList, FcContacts, FcFactory, FcSalesPerformance} from 'react-icons/fc'
+import {FcHome, FcTodoList, FcContacts, FcFactory, FcSalesPerformance} from 'react-icons/fc'
 import { MdBiotech } from 'react-icons/md'
 import { MdCastForEducation } from 'react-icons/md'
 import {Link} from 'react-scroll'

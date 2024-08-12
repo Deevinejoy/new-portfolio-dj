@@ -48,10 +48,8 @@
 }
 #dark .about-sect{
     box-shadow: none;
-    background-color: #38004c;
-    box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
-    --webkit-box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
-    --moz-box-shadow: -6px 11px 5px -4px  rgba(0,0,0,0.42);
+    background-color: black;
+
     color: white;
 
 }
@@ -67,6 +65,7 @@
     .about-img{
         align-items: center;
         justify-content: center;
+     
     }
     .about-det{
         padding: 50px;

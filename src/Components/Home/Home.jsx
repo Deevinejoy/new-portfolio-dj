@@ -1,4 +1,3 @@
-import React from 'react'
 import './Home.css'
 import Typewriter from 'typewriter-effect'
 import myCV from './Divine-joy-cv.pdf'

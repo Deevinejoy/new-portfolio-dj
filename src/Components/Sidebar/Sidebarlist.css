@@ -47,16 +47,18 @@
 }
 .nav-item a:hover{
     color: rgb(237, 112, 133);
-    border-left: 2px solid rgb(237, 112, 133) ;
+    border-left: 2px solid yellow ;
     text-decoration: none;
 }
-
-
 .nav-item a[class='active']{
     color: rgb(237, 112, 133);
-    border-left: 2px solid rgb(237, 112, 133) ;
+    border-left: 2px solid yellow ;
     text-decoration: none;
 
-   
+}
+ .navbar-items-collapsed a svg[class='active']{
+    color: rgb(237, 112, 133);
+    border-left: 2px solid yellow ;
+    text-decoration: none;
 
 }
