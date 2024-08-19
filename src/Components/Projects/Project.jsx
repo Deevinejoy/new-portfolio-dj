@@ -66,18 +66,19 @@ const Project = () => {
     ]
     const wpdata = [
         {
-            name: 'Kitavibez',
-            des: 'Landing page for church ',
-            link: 'https://kitavibezz.com',
-            img: ''
-
+            name: 'Kitarific',
+            des: 'A digital marketing agency',
+            link: 'https://kitarific.com',
+            img: './img/kitarific.png'
         },
         {
-            name: 'Kitarific',
-            des: 'A blog page you can Add, Delete and Edit blog posts',
-            link: 'https://kitarific.com',
-            img: ''
+            name: 'Kitavibez',
+            des: 'A personal website',
+            link: 'https://kitavibezz.com',
+            img: './img/kitavibez.png'
+
         }
+      
     ]
     const [loadMore, setLoadMore] = useState(2)
     const handleLoadMore = () => {
