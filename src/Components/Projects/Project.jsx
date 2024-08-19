@@ -66,54 +66,18 @@ const Project = () => {
     ]
     const wpdata = [
         {
-            name: 'EWC',
+            name: 'Kitavibez',
             des: 'Landing page for church ',
-            link: '',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/screencapture-medicentralscribes-2024-03-18-16_49_58.png'
+            link: 'https://kitavibezz.com',
+            img: ''
 
         },
         {
-            name: 'Blog Page',
+            name: 'Kitarific',
             des: 'A blog page you can Add, Delete and Edit blog posts',
-            link: '',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/screencapture-maroonstrategist-2024-03-16-15_26_10.png'
-        },
-        {
-            name: 'URL shortener',
-            des: 'Website to help shorten you URL',
-            link: '',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/screencapture-innerstandsocial-2024-03-16-15_10_31.png'
-
-        },
-        {
-            name: 'To-do list',
-            des: 'To do list app for everyday tasks made with just html, css and javascript',
-            link: 'https://youtu.be/xPa9q_ysyF4',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-2.png'
-        },
-
-        {
-            name: 'Sign-up page',
-            des: 'Sign up page with e-mail validation to check for correct e-mail format',
-            link: 'https://youtu.be/ezRTf_hV2Qw',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-6.png'
-        },
-
-
-        {
-            name: 'Grocery list',
-            des: 'App for your grocery list',
-            link: '',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-4-1.png'
-
-        },
-        {
-            name: 'Color changing card',
-            des: 'Changes color based on what you type',
-            link: '',
-            img: 'https://kitarific.com/wp-content/uploads/2024/03/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png'
+            link: 'https://kitarific.com',
+            img: ''
         }
-
     ]
     const [loadMore, setLoadMore] = useState(2)
     const handleLoadMore = () => {

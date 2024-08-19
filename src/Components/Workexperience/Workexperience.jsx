@@ -28,7 +28,7 @@ const Workexperience = () => {
             ]
         },
         {
-            company: 'Kitarific',
+            company: 'Kitarific Agency',
             position: 'Wordpress designer',
             year: '2022 - 2024',
             tech:[

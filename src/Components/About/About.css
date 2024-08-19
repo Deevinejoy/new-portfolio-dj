@@ -14,8 +14,7 @@
     height: 300px;
     width: 300px;
     border-radius: 150px;
-    object-fit: cover;
-    margin-left: 40px;
+    object-fit: cover;  
     border:2px solid yellow;
 
 }
@@ -58,6 +57,14 @@
 }
 
 @media (max-width: 1200px) {
+ 
+    .about-det{
+        padding: 50px;
+      }
+      
+    
+}
+@media (max-width: 1000px) {
     .about-sect{
         height:700px;
         flex-direction: column;
@@ -65,13 +72,11 @@
     .about-img{
         align-items: center;
         justify-content: center;
+      
      
     }
-    .about-det{
-        padding: 50px;
-      }
-      
-    
+
+   
 }
 @media (max-width: 600px) {
     .about-sect{

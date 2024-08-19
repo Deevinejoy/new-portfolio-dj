@@ -8,7 +8,7 @@ const About = () => {
     <div className='container about-sect' id='about'>
             <Slide direction='right'>
                     <div className='about-img'>
-                          <img  src='/img/Divine-joy.jpeg' alt="pic" />
+                          <img  src='/img/dj.jpeg' alt="pic" />
                     </div>        
             </Slide>
             <div className='about-det'>
